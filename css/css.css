@@ -1,0 +1,283 @@
+/*elements header*/
+div.headIcons {
+    position: absolute;
+    width: 878.42px;
+    height: 93px;
+    top: 9px;
+}
+
+img.logo {
+    position: absolute;
+    width: 65.5px;
+    height: auto;
+    left: 800px;
+    top: 12px;
+}
+
+img.searchIcon {
+    position: absolute;
+    width: 35.66px;
+    height: auto;
+    left: 1705px;
+    top: 26px;
+}
+
+img.userIcon {
+    position: absolute;
+    width: 42.79px;
+    height: auto;
+    left: 1750px;
+    top: 25px;
+}
+
+img.cartIcon {
+    position: absolute;
+    width: 40.42px;
+    height: auto;
+    left: 1800px;
+    top: 25px;
+}
+
+/*menu*/
+nav.menu {
+    position: absolute;
+    width: 1728px;
+    height: 100px;
+    left: 0px;
+    top: 102px;
+}
+
+a.active {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    right: 75.15%;
+    top: 22%;
+    bottom: 22%;
+    background: #000000;
+    border: 3px solid #000000;
+    border-radius: 5px;
+}
+
+a.menu {
+    box-sizing: border-box;
+    position: absolute;
+    left: 26.81%;
+    right: 59.1%;
+    top: 22%;
+    bottom: 22%;
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 5px;
+}
+
+/*bannière*/
+img.banner {
+    position: absolute;
+    width: 90%;
+    height: 761px;
+    left: 100px;
+    top: 261px;
+}
+
+/* "redecouvrez assasins creed" */
+p.texte1 {
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    left: 165px;
+    top: 1160px;
+
+    font-family: 'Poppins';
+    font-weight: 1000;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: -0.025em;
+    color: #000000;
+}
+
+p.texte2 {
+    position: absolute;
+    width: 670px;
+    height: 105px;
+    left: 162px;
+    top: 1185px;
+
+    font-family: 'Poppins';
+    font-weight: 1000;
+    font-size: 70px;
+    line-height: 105px;
+    letter-spacing: -0.025em;
+    color: #C69C30;
+}
+
+img.hero1 {
+    position: absolute;
+    width: 1062.68px;
+    height: 716.68px;
+    left: 120px;
+    top: 1334px;
+}
+
+img.hero2 {
+    position: absolute;
+    width: 1057.68px;
+    height: 716.68px;
+    left: 739px;
+    top: 2165px;
+}
+
+p.titre1 {
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 1459px;
+    top: 1376px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+    letter-spacing: -0.025em;
+
+    color: #000000;
+}
+
+p.loremIpsum1 {
+    position: absolute;
+    width: 280px;
+    height: 559px;
+    left: 1459px;
+    top: 1449px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.025em;
+
+    color: #000000;
+}
+
+p.titre2 {
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 265px;
+    top: 2222px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+    letter-spacing: -0.025em;
+
+    color: #000000;
+}
+
+p.loremIpsum2 {
+    position: absolute;
+    width: 280px;
+    height: 544px;
+    left: 265px;
+    top: 2295px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.025em;
+
+    color: #000000;
+}
+
+/*description*/
+div.description {
+    position: absolute;
+    width: 100%;
+    height: 1216px;
+    top: 3028px;
+
+    background-color: #000000;
+}
+
+p.titre3 {
+    position: relative;
+    width: 659px;
+    height: 60px;
+    left: 632px;
+    top: 64px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+img.logo2 {
+    position: relative;
+    float: left;
+    width: 358px;
+    height: 227px;
+    left: 190px;
+    top: 182px;
+}
+
+p.desc1 {
+    position: relative;
+    width: 342px;
+    height: 343px;
+    left: 185px;
+    top: 270px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.025em;
+
+    color: #FFFFFF;
+}
+
+img.logo3 {
+    position: relative;
+    float: right;
+    width: 207px;
+    height: 206px;
+    left: -300px;
+    top: -182px;
+}
+
+p.desc2 {
+    position: relative;
+    width: 342px;
+    height: 343px;
+    left: 1345px;
+    top: 140px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.025em;
+
+    color: #FFFFFF;
+}
