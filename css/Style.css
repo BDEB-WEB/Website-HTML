@@ -1,0 +1,222 @@
+body{background-color : black;}
+
+img.logo{position: absolute;
+left: 50%;
+right: 50%;
+top: 0%;
+bottom: 0%;}
+
+img.pos{position: absolute;
+width: 500px;
+height: 461px;
+left: 1028px;
+top: 2305px;
+}
+
+img.pos1{position: absolute;
+width: 500px;
+height: 461px;
+left: 195px;
+top: 1609px;
+}
+
+img.pos2{position: absolute;
+width: 500px;
+height: 461px;
+left: 200px;
+top: 3001px;}
+
+img.pos3{
+position: absolute;
+width: 500px;
+height: 461px;
+left: 1033px;
+top: 3697px;}
+
+ img.pos4{position: absolute;
+width: 1300px;
+height: 140px;
+left: 214px;
+top: 4362px;
+border-radius: 45px 0px;}
+
+img.pos5{position: absolute;
+width: 430px;
+height: 548.28px;
+left: 214px;
+top: 4626px;}
+
+img.pos6{position: absolute;
+width: 429px;
+height: 548px;
+left: 1085px;
+top: 4626px;}
+
+p.stylep{position: absolute;
+width: 176px;
+height: 50px;
+left: 341px;
+top: 5223px;
+    
+font-family: "Philosopher";
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 50px;
+text-align: center;
+letter-spacing: -0.025em;
+text-transform: uppercase;
+    
+color: #FFFFFF;}
+
+p.stylep1{position: absolute;
+width: 252px;
+height: 50px;
+left: 1173px;
+top: 5223px;
+        
+font-family: "Philosopher";
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 50px;
+text-align: center;
+letter-spacing: -0.025em;
+text-transform: uppercase;
+        
+color: #FFFFFF;}
+       
+
+img.pos7{position: absolute;
+width: 1300px;
+height: 140px;
+left: 211px;
+top: 5780px;}
+
+video.pos8{position: absolute;
+width: 1420px;
+height: 861px;
+left: 154px;
+top: 6146px;}
+
+img.pos9{position: absolute;
+width: 1728px;
+height: 630px;
+left: 0px;
+top: 7277px;}
+
+p.stylep2{position: absolute;
+    width: 572px;
+    height: 360px;
+    left: 956px;
+    top: 1710px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.025em;  
+    color: #FFFFFF;}
+
+    p.stylep3{position: absolute;
+        width: 572px;
+        height: 360px;
+        left: 195px;
+        top: 2406px;     
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: right;
+        letter-spacing: -0.025em;      
+        color: #FFFFFF;}
+
+ h1.styleh1{position: absolute;
+    width: 572px;
+    height: 45px;
+    left: 956px;
+    top: 1631px;  
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    /* identical to box height */  
+    letter-spacing: -0.025em;   
+    color: #FFFFFF;}
+
+    h1.styleh2{position: absolute;
+        width: 572px;
+        height: 45px;
+        left: 195px;
+        top: 2327px;       
+        font-family: 'Philosopher';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 45px;
+        /* identical to box height */       
+        text-align: right;
+        letter-spacing: -0.025em;        
+        color: #FFFFFF;
+        }
+        p.stylep4{position: absolute;
+            width: 572px;
+            height: 360px;
+            left: 961px;
+            top: 3102px;          
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 36px;
+            letter-spacing: -0.025em;           
+            color: #FFFFFF;
+            }
+
+
+            h1.styleh3{position: absolute;
+                width: 572px;
+                height: 45px;
+                left: 961px;
+                top: 3023px;              
+                font-family: 'Philosopher';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 45px;
+                /* identical to box height */               
+                letter-spacing: -0.025em;
+                color: #FFFFFF;
+                }
+
+                p.stylep5{position: absolute;
+                    width: 572px;
+                    height: 360px;
+                    left: 200px;
+                    top: 3798px;                  
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 36px;
+                    text-align: right;
+                    letter-spacing: -0.025em;                   
+                    color: #FFFFFF;}
+
+                h1.styleh4{position: absolute;
+                    width: 572px;
+                    height: 45px;
+                    left: 200px;
+                    top: 3719px;                   
+                    font-family: 'Philosopher';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 45px;
+                    /* identical to box height */                   
+                    text-align: right;
+                    letter-spacing: -0.025em;                   
+                    color: #FFFFFF;
+                    }
