@@ -1,75 +1,47 @@
 /*elements header*/
-div.headIcons {
-    position: absolute;
-    width: 878.42px;
-    height: 93px;
-    top: 9px;
-}
-
-img.logo {
-    position: absolute;
-    width: 65.5px;
+.header {
+    position: relative;
+    width: 90%;
     height: auto;
-    left: 800px;
-    top: 12px;
-}
-
-img.searchIcon {
-    position: absolute;
-    width: 35.66px;
-    height: auto;
-    left: 1705px;
-    top: 26px;
-}
-
-img.userIcon {
-    position: absolute;
-    width: 42.79px;
-    height: auto;
-    left: 1750px;
-    top: 25px;
-}
-
-img.cartIcon {
-    position: absolute;
-    width: 40.42px;
-    height: auto;
-    left: 1800px;
-    top: 25px;
+    left: 120px;
+    top: 0px;
+    margin-top: -50px;
 }
 
 /*menu*/
-nav.menu {
-    position: absolute;
-    width: 1728px;
-    height: 100px;
-    left: 0px;
-    top: 102px;
+.menu {
+    overflow: visible;
+    text-align: center;
+    font-family: Poppins;
+    margin-top: 50px;
 }
 
-a.active {
-    box-sizing: border-box;
-    position: absolute;
-    width: 200px;
-    height: 40px;
-    right: 75.15%;
-    top: 22%;
-    bottom: 22%;
-    background: #000000;
-    border: 3px solid #000000;
+.menu a {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 7.5px 50px;
+    font-size: 20px;
+    text-decoration: none;
+
+    border: 1mm solid black;
+    border-color: #000000;
     border-radius: 5px;
 }
 
-a.menu {
-    box-sizing: border-box;
-    position: absolute;
-    left: 26.81%;
-    right: 59.1%;
-    top: 22%;
-    bottom: 22%;
-    background: #FFFFFF;
-    border: 3px solid #000000;
-    border-radius: 5px;
+.menu a.active {
+    background-color: black;
+    color: white;
+}
+
+.menu a:hover {
+    background-color: black;
+    color: white;
+}
+
+.menu ul {
+    display: inline-block;
+    list-style-type: none;
 }
 
 /*bannière*/
