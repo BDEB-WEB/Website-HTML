@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+    <link href="../css/styleÉquipe.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="../images/ubi logo.png">
+    <title>L'équipe</title>
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <div class="menu">
+                <p>
+                    <img src="../images/header.png" class="header">
+                </p>
+                <ul>
+                    <a class="menu" href="../index.html">Accueil</a>&ensp;&ensp;&ensp;
+                    <a class="menu" href="../html/Odyssey.html">Odyssey</a>&ensp;&ensp;&ensp;
+                    <a class="menu" href="../html/Valhalla.html">Valhalla</a>&ensp;&ensp;&ensp;
+                    <a class="menu" href="../html/Aide.html">Aide</a>&ensp;&ensp;&ensp;
+                    <a class="active" href="../html/Équipe.html">Notre Équipe</a>
+                    <ul>
+            </div>
+        </header>
+
+    </div>
+    <div class="barre"></div>
+    <div class="meeting"></div>
+    <div class="rect1"></div>
+    <div class="man1"></div>
+    <div class="rect2"></div>
+    <div class="man2"></div>
+    <div class="rect3"></div>
+    <div class="man3"></div>
+    <span class="titre1">À propos de nous</span>
+    <span class="nom1">| Ariel </span>
+    <span class="nom2">| Francis </span>
+    <span class="nom3">| Redouane </span>
+    <span class="titre2">L’ÉQUIPE DE DÉVELOPPEMENT WEB</span>
+    <span class="titre3">DIRECTION DU SITE </span>
+    <div class="direction">
+        Ce site web présente les deux derniers jeux de la franchise
+        Assasin’s Creed: Odyssey et Valhalla. L’aspect visuel du site est inspiré par divers éléments réliés aux
+        jeux. Les couleurs correspondent à la palette de couleur du logo, noir et or pour Odyssey par exemple. C’est
+        aussi pareil pour les polices; la page de Odyssey a une police de type grecque et celle de Valhalla,
+        nordique.
+        Nous avons choisi de donner aux pages ont un aspect simple et similaire. Pour finir, les éléments sont
+        disposés de telle sorte que vous découvriez chque aspect de chaque jeu un à la fois.
+        <br>
+        Des sites de concurrents qui ont aussi servi d’inspiration sont:
+        <br>
+        <ul>
+            <span class="liste">+ https://www.guerrilla-games.com/games</span> - principalement pour la page d’accueil.
+            <br>
+            <span class="liste"> + https://www.ubisoft.com/en-ca/game/far-cry/far-cry-3</span> - pour la page Valhalla.
+            <br>
+            <span class="liste"> + https://www.qedgroup.cz/en/co-delame</span> - pour la page de contact. <br>
+        </ul>
+    </div>
+
+    <div class="titrex">NOTRE PROCHAIN JEU</div>
+
+    <div style="text-align:center">
+        <br><br><br><br><br><br><br><br><br>
+        <button onclick="faireDemarrer();">Démarrer/Pause</button>
+        <button onclick="faireDiminuer();">Diminuer</button>
+        <button onclick="faireGrossir();">Grossir</button>
+        <button onclick="faireNormal();">Normal</button>
+        <br><br>
+        <video class="videos" id="video1" width="1500px">
+            <source src="../videos/mirageTrailer.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <script>
+        var myVideo = document.getElementById("video1");
+        function faireDemarrer() {
+            if (myVideo.paused)
+                myVideo.play();
+            else
+                myVideo.pause();
+        }
+        function faireDiminuer() {
+            myVideo.width = 1000;
+        }
+        function faireGrossir() {
+            myVideo.width = 1920
+        }
+        function faireNormal() {
+            myVideo.width = 1500
+        }
+    </script>
+    </span>
+
+    </div>
+    </div>
+</body>
+
+</html>
